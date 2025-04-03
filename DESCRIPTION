@@ -1,0 +1,15 @@
+Package: TxtClassification
+Title: Text Classification using tradicional methods.
+Version: 0.0.0.9000
+Depends: rpart, randomForest, stats, e1071, nnet, keras, magrittr, dplyr
+Publish: 02/04/2025
+Authors@R: 
+    person(Julio Cesar, "Vieira", , "julio.vieira@fgv.br", role = c("aut", "cre"))
+Description: TxtClassification is a package designed to enable text classification using tradicional methods.
+License: GPL-3
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
